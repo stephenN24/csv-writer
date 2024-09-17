@@ -4,8 +4,8 @@ class CSVWriter {
         this.columns = columns;
         this.csv = this.columns.join(",") + "\n";
     }
-    addRows(values) {
-        let rows = values.map((value) => this.formatRow(value));
+    addRows(payments) {
+        let rows = payments.map((payment) => this.formatRow(payment));
         this.csv += rows.join("\n");
         console.log(this.csv);
     }

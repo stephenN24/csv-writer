@@ -14,8 +14,8 @@ class CSVWriter {
 
   private csv: string;
 
-  addRows(values: Payment[]): void {
-    let rows = values.map((value) => this.formatRow(value));
+  addRows(payments: Payment[]): void {
+    let rows = payments.map((payment) => this.formatRow(payment));
 
     this.csv += rows.join("\n");
 
