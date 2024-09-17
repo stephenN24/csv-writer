@@ -1,0 +1,22 @@
+{
+  "name": "csv-writer",
+  "version": "1.0.0",
+  "description": "CSV Writer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenN24/csv-writer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephenN24/csv-writer/issues"
+  },
+  "homepage": "https://github.com/stephenN24/csv-writer#readme",
+  "devDependencies": {
+    "@types/node": "^22.5.5"
+  }
+}
